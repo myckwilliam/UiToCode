@@ -1,0 +1,226 @@
+/* Import Fonts (Open Sans because Neue Helvetica is a paid font :( .) */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/* Style Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+html, body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(assets/imgs/gradient.svg);
+    background-repeat: no-repeat;
+    background-position: 0 -2rem;
+    background-size: contain;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Variable Declarations */
+
+:root {
+    --normal-font-size: 0.9375rem;
+    --medium-font-size: 1rem;
+    --title-font-size: 5.3rem;
+}
+
+/* Background Configuration */
+.background-gradient {
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    z-index: 0;
+}
+
+.background-gradient img {
+    width: 100vw;
+    height: calc(auto * 0.9);
+}
+/* Container Configuration */
+
+.container {
+    padding: 0.9375rem 8rem 0;
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Header Styles */
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header .icon-stripeLogo {
+    font-size: 1.375rem;
+    color: white
+}
+
+
+
+.header .menu nav ul {
+    width: 28.375rem;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-container {
+    font-size: var(--normal-font-size);
+    color: white;
+    width: 6.4375rem;
+    height: 2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.signin-button {
+    width: 5.695rem;
+    height: 2.0625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 6.25rem;
+    
+}
+
+.icon-vector {
+    font-size: 0.588rem;
+    position: relative;
+    top: -0.085rem;
+    
+}
+
+.main {
+    position: relative;
+    margin-top: 4rem;
+    display: flex;
+}
+
+/*Info Section */
+.info {
+}
+
+.info .title {
+    width: 45rem;
+    font-size: var(--title-font-size);
+    font-weight: bold;
+    line-height: 7rem;
+    mix-blend-mode: luminosity;
+    color: #393939;
+}
+
+.info .details {
+    font-size: var(--medium-font-size);
+    width: 29rem;
+    line-height: 2.215rem;
+    color: #425466;
+    mix-blend-mode: luminosity;
+}
+
+.buttons {
+    margin-top: 1.75rem;
+    display: flex;
+}
+
+.start {
+    width: 6.7575rem;
+    height: 2.0625rem;
+    background-color: #11253E;
+    color: white;
+    padding: 0 0.8125rem;
+    border-radius: 6.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-sales {
+    color: #0A2540;
+    padding: 0 0.8125rem;
+    display: flex;
+    align-items: center;
+    height: 2.0625rem;
+    font-weight: 600;
+}
+
+ /* Representations Section */
+
+.representations {
+
+}
+
+.representations .principal {
+    width: 50rem;
+    height: 27rem;
+    margin-left: 7rem;
+    filter: drop-shadow(0px 16px 24px rgba(17, 37, 62, 0.25));
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, .50);
+    backdrop-filter: blur(5px);
+}
+
+.representations .search {
+    width: 23rem;
+    height: 1.5rem;
+    background-color: white;
+    position: relative;
+    margin-bottom: 0.625rem;
+    top: 1.3125rem;
+    left: 10rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+.representations .section {
+    position: absolute;
+    top: 4rem;
+    left: 14.5rem; 
+}
+
+.representations .section .post {
+    width: 11rem;
+    height: 10rem;
+    background: white;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.08), 0px 2px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    margin-bottom: 1.375rem;
+}
+
+.phone {
+    width: 16.625rem;
+    height: 27rem;
+    background-color: white;
+    position: absolute;
+    top: 3.4rem;
+    left: 49rem;
+    box-shadow: 6px 0px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}

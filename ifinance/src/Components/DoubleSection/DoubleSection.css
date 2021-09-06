@@ -1,0 +1,6 @@
+.double-section {
+    display: flex;
+    padding-top: 6.137vh;
+    justify-content: space-between;
+    align-items: center;
+}

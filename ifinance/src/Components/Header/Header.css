@@ -1,0 +1,25 @@
+.header-container{
+    width: 83.71vw;
+    height: 3.2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icon {
+    margin-right: 1.83vw;
+}
+
+.header-icon:nth-child(3) {
+    margin-right: 0;
+}
+
+.header-menu {
+    width: 7vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+img {
+    cursor: pointer;
+}

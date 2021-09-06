@@ -1,0 +1,9 @@
+.app-header-container {
+    padding-top: 6.44vh;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

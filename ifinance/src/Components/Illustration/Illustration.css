@@ -1,0 +1,8 @@
+.illustration {
+    background-image: url('../../Assets/illustration.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 47.5rem;
+    height: 81vh;
+    background-size: cover;
+}

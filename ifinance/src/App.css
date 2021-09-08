@@ -1,5 +1,26 @@
-.app-header-container {
-    padding-top: 6.44vh;
+.app-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 7fr;
+    grid-template-areas: "header header"
+                        "info illustration";
+}
+
+.app-header {
+    grid-area: header;
+}
+
+.app-info {
+    grid-area: info;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -20vh;
+    margin-left: 10vw;
+}
+
+.app-illustration {
+    grid-area: illustration;
 }
 
 .container {

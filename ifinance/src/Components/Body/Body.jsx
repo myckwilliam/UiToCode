@@ -1,9 +1,9 @@
 import React from 'react';
 import './Body.css'
 
-const Body = ({ children }) => {
+const Body = ({ children, className }) => {
     return ( 
-    <div className="body-div">
+    <div className={className + ' ' + "body-div"}>
         {children}
     </div> 
     );

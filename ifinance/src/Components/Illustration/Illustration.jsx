@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Illustration.css'
 
-const Illustration = () => {
+const Illustration = ({ className }) => {
     return ( 
-        <div className="illustration">
+        <div className={className + ' ' + "illustration"}>
 
         </div>
      );

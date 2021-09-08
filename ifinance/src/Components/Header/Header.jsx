@@ -6,9 +6,9 @@ import medium from '../../Assets/medium.png'
 import logo from '../../Assets/logo.png'
 import menu from '../../Assets/menu.png'
 
-const Header = () => {
+const Header = ({className}) => {
     return ( 
-        <div className="header-container">
+        <div className={"header-container" + ' ' + className}>
             <div className="header-social-icons">
                 <img className="header-icon" src={twitter} alt="twitter"/>
                 <img className="header-icon" src={facebook} alt="twitter"/>
